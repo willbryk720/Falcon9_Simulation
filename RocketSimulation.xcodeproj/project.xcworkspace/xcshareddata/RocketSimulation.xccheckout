@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E85D477D-9E98-48D5-9D62-B70B7104A8C8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RocketSimulation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>303CD683B187D1BAECDE2D2063C41BE8B12251E5</key>
+		<string>https://github.com/willbryk720/Falcon9.git</string>
+		<key>75423A7F505B348D54440EE0220981D98024A9E2</key>
+		<string>https://github.com/willbryk720/Falcon9_Simulation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RocketSimulation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>303CD683B187D1BAECDE2D2063C41BE8B12251E5</key>
+		<string>../..</string>
+		<key>75423A7F505B348D54440EE0220981D98024A9E2</key>
+		<string>../../../Falcon9_Simulation</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/willbryk720/Falcon9.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>303CD683B187D1BAECDE2D2063C41BE8B12251E5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>75423A7F505B348D54440EE0220981D98024A9E2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Falcon9_Simulation</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>303CD683B187D1BAECDE2D2063C41BE8B12251E5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Falcon9Try2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
