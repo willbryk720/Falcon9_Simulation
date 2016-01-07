@@ -1026,7 +1026,7 @@ void updateForces(){
     
     GLdouble D = .6 * .5 * air_density * pow(MagOfVector(Falcon.vel_cm[0], Falcon.vel_cm[1]),2.0) * A;
     
-    if ((D*DeltaT < 2.0*(MagOfVector(Falcon.vel_cm[0], Falcon.vel_cm[1]))) &&(MagOfVector(Falcon.vel_cm[0], Falcon.vel_cm[1]) > 0.0)) // prevent faulty air resistance change in velocity due to high DeltaT, and preventdivision by zero
+    if ((D*DeltaT < 2.0*Falcon.mass*(MagOfVector(Falcon.vel_cm[0], Falcon.vel_cm[1]))) && (MagOfVector(Falcon.vel_cm[0], Falcon.vel_cm[1]) > 0.0)) // prevent faulty air resistance change in velocity due to high DeltaT, and preventdivision by zero
     {
             Falcon.air_resistance[0] = - D * Falcon.vel_cm[0]/MagOfVector(Falcon.vel_cm[0], Falcon.vel_cm[1]);
             Falcon.air_resistance[1] = - D * Falcon.vel_cm[1]/MagOfVector(Falcon.vel_cm[0], Falcon.vel_cm[1]);
